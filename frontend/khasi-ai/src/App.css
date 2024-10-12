@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif; /* Apply Kumbh Sans globally */
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #C41F45, #B31C3F);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 80px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.analyzer-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.khasi-logo {
+    height: 40px;
+}
+
+.upload-options {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.upload-btn, .camera-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-family: 'Kumbh Sans', sans-serif; /* Apply font */
+}
+
+.upload-btn img, .camera-btn img {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.predict-btn {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif; /* Apply font */
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.predict-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.prediction-text {
+    font-family: 'Kumbh Sans', sans-serif; /* Apply font to prediction */
+    font-size: 18px;
+    margin-top: 15px;
+    color: #FFBA05;
+}
+.error-text{
+    color: #FFBA05;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social-links a {
+    margin: 0 5px;
+}
+
+.social-links img {
+    height: 25px;
+}
+.capture-btn {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif; /* Apply font */
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.capture-btn:hover {
+    background-color: #f0f0f0;
+}
