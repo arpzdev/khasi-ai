@@ -113,4 +113,5 @@ def upload_image():
         return jsonify({'error': error_message, 'trace': str(traceback.format_exc())}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)  # Run the app in debug mode
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))  # Added host and port
+  # Run the app in debug mode
